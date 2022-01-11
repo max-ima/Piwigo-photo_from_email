@@ -227,11 +227,11 @@ jQuery(document).ready(function() {
     <p>
       <strong>{'Path'|@translate}</strong>
       <br>
-      <input type="text" name="path" value="{$path}"> <a href="#" class="icon-eye showPathExamples">show examples</a>
+      <input type="text" name="path" value="{$path}"> <a href="#" class="icon-eye showPathExamples">{'show examples'|@translate}</a>
       <span id="examples">
-        <br><span><span class="example">{literal}{mail.gandi.net:993/imap/ssl}INBOX{/literal}</span> <a href="#" class="useExample icon-pencil">use it</a></span>
-        <br><span><span class="example">{literal}{ssl0.ovh.net:993/imap/ssl}INBOX{/literal}</span> <a href="#" class="useExample icon-pencil">use it</a></span>
-        <br><span><span class="example">{literal}{imap.gmail.com:993/imap/ssl}INBOX{/literal}</span> <a href="#" class="useExample icon-pencil">use it</a></span>
+        <br><span><span class="example">{literal}{mail.gandi.net:993/imap/ssl}INBOX{/literal}</span> <a href="#" class="useExample icon-pencil">{'use it'|@translate}</a></span>
+        <br><span><span class="example">{literal}{ssl0.ovh.net:993/imap/ssl}INBOX{/literal}</span> <a href="#" class="useExample icon-pencil">{'use it'|@translate}</a></span>
+        <br><span><span class="example">{literal}{imap.gmail.com:993/imap/ssl}INBOX{/literal}</span> <a href="#" class="useExample icon-pencil">{'use it'|@translate}</a></span>
       </span>
     </p>
 
@@ -258,7 +258,7 @@ jQuery(document).ready(function() {
     <p>
       <strong>{'Moderation'|translate}</strong>
       <br>
-      <label><input type="checkbox" name="moderation"> an administrator must approve each photo submitted</label>
+      <label><input type="checkbox" name="moderation"> {'an administrator must approve each photo submitted'|translate}</label>
     </p>
 
     <input type="hidden" name="id" value="">
@@ -278,11 +278,11 @@ jQuery(document).ready(function() {
 
   <table class="table2" id="mailboxes">
     <tr class="throw">
-      <th>path</th>
-      <th>login</th>
-      <th class="passwordCell">password</th>
-      <th>album</th>
-      <th>moderated</th>
+      <th>{'path'|translate}</th>
+      <th>{'login'|translate}</th>
+      <th class="passwordCell">{'password'|translate}</th>
+      <th>{'album'|translate}</th>
+      <th>{'moderated'|translate}</th>
       <th>&nbsp;{* action *}</th>
     </tr>
 
